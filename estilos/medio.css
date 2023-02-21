@@ -1,7 +1,10 @@
 @charset "UTF-9";
 
+:root {
+    --header:#038C33;
+    --letras: #D9BC66;
+}
+
 @media (max-width: 960px ) {
-    header {
-        background-color: red;
-    }
+
 }

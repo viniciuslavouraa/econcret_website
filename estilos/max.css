@@ -18,18 +18,42 @@
         background-color: var(--header);
         align-items: center;
         justify-content: space-between;
+        box-shadow: 0 3px 3px #00000083;
     }
-    header h1 {
+    header p {
         color: var(--letras);
+        margin-top: 55px;
+        margin-left: -10px;
+        font-size: 1.3em;
+        letter-spacing: 1.2px;
+    
+    }
+    span#logo {
+        display: flex;
+        align-items: center;
     }
 
     /* configurações navegação*/
     nav {
-
+        display: flex;
+        gap: 15px;
+        margin-right: 20px;
     }
     nav a {
         height: 0;
+        color: var(--letras);
+        font-size: 1.2em;
+        text-decoration: none;
     }
+    nav a:hover {
+        text-shadow: 2px 2px 1px #0000008e;
+    }
+
+    /* navegação em telas menores*/
+    nav#nav-close {
+        display: none;
+    }
+    /* Configuração section quem somos*/
 
     .circle {
         width: 12px;
