@@ -47,6 +47,8 @@
     }
     nav a:hover {
         text-shadow: 2px 2px 1px #0000008e;
+        transform: scale(103%);
+        transition: transform 400ms;
     }
 
     /* navegação em telas menores*/
