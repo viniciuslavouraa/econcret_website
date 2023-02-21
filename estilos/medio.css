@@ -1,0 +1,7 @@
+@charset "UTF-9";
+
+@media (max-width: 960px ) {
+    header {
+        background-color: red;
+    }
+}
